@@ -1,0 +1,3 @@
+# Los archivos CSV del dataset de OULAD van aquí.
+# GitHub ignorará los archivos .csv pesados gracias al archivo .gitignore, 
+# pero mantendrá esta carpeta en el repositorio gracias a este archivo .gitkeep.

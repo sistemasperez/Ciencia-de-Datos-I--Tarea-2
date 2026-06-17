@@ -19,7 +19,7 @@ El código sigue una arquitectura de módulos separados, garantizando encapsulac
 ## Requisitos Previos
 
 - Python 3.8 o superior.
-- Los archivos CSV del dataset OULAD (`studentInfo.csv`, `studentVle.csv`, `vle.csv`) deben estar descargados y ubicados estrictamente dentro de una carpeta llamada `data/` en la raíz de este proyecto.
+- **MUY IMPORTANTE:** Los archivos CSV del dataset OULAD (`studentInfo.csv`, `studentVle.csv`, `vle.csv`) deben ser descargados y colocados **estrictamente dentro de la carpeta vacía `data/`** que se encuentra en la raíz de este proyecto. (Estos archivos no están en GitHub debido a su gran tamaño).
 
 ## Instalación
 

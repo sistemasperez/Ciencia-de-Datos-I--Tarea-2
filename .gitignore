@@ -5,7 +5,6 @@ env/
 __pycache__/
 
 # Archivos de datos muy grandes (No subir a GitHub)
-data/
 *.csv
 
 # Bases de datos generadas
