@@ -43,6 +43,14 @@ Para comprobar la integridad de las reglas de transformación y garantizar la ca
 pytest test_transform.py -v
 ```
 
+### 3. Ejecutar Análisis Exploratorio de Datos (EDA)
+Contamos con una carpeta `EDA/` que contiene los análisis y visualizaciones (matriz de correlación, boxplots, distribución). 
+El script principal e integral de análisis fue desarrollado por el equipo de trabajo y se ejecuta así:
+```bash
+python EDA/eda_extendido.py
+```
+*(Nota: Existen otros scripts complementarios como `eda_tesis.py` enfocado en cruzar datos para la tesis de deserción y `eda_example.py` de referencia básica).*
+
 ---
 
 ## Enfoque Analítico: Predicción de Abandono Escolar (Dropout)

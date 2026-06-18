@@ -15,7 +15,7 @@ def run_eda_tesis():
     print("=== EDA Avanzado para Tesis: Análisis de Deserción ===")
     
     # Conexión a la base de datos (sube un nivel)
-    db_path = os.path.join(os.path.dirname(__file__), '..', 'oulad_database.sqlite')
+    db_path = os.path.join(os.path.dirname(__file__), '..', '..', 'oulad_database.sqlite')
     print(f"Conectando a SQLite: {db_path}")
     
     try:

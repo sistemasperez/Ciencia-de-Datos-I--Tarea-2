@@ -15,7 +15,7 @@ def run_eda():
     print("=== Iniciando Análisis Exploratorio de Datos (EDA) ===")
     
     # 1. Conectar a la base de datos (subiendo un nivel desde la carpeta EDA)
-    db_path = os.path.join(os.path.dirname(__file__), '..', 'oulad_database.sqlite')
+    db_path = os.path.join(os.path.dirname(__file__), '..', '..', 'oulad_database.sqlite')
     print(f"Conectando a la base de datos: {db_path}")
     
     try:
