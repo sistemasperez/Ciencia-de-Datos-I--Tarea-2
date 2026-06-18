@@ -1,8 +1,8 @@
 import os
 import logging
-from extract import extract_oulad_data
-from transform import clean_and_encode_student_info, build_student_vle_view
-from load import get_mysql_engine, get_sqlite_engine, load_data_to_mysql
+from ETL_Code.extract import extract_oulad_data
+from ETL_Code.transform import clean_and_encode_student_info, build_student_vle_view
+from ETL_Code.load import get_mysql_engine, get_sqlite_engine, load_data_to_mysql
 
 # Configuración básica de logging
 logging.basicConfig(
