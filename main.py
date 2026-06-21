@@ -21,7 +21,7 @@ TEST_STUDENT_VLE_LIMIT = 50000
 # Configuración de base de datos Embebida (SQLite)
 SQLITE_DB_PATH = "oulad_database.sqlite"
 
-# (Opcional, guardado por si luego migras a MySQL)
+# (Opcional, guardado por si luego usamos MySQL)
 # DB_USER = "tu_usuario"
 # DB_PASSWORD = "tu_password"
 # DB_HOST = "localhost"
